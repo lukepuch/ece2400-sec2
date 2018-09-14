@@ -1,3 +1,6 @@
+#ifndef WARM_COLORS
+#define WARM_COLORS
 red
 orange
 yellow
+#endif

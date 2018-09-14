@@ -1,10 +1,5 @@
 #include <stdio.h>
-
-int avg( int x, int y )
-{
-  int sum = x + y;
-  return sum / 2;
-}
+#include "avg.h"
 
 int main()
 {
@@ -12,5 +7,5 @@ int main()
   int b = 20;
   int c = avg( a, b );
   printf( "average of %d and %d is %d\n", a, b, c );
-  return  0;
+  return 0;
 }
